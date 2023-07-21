@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let i = 1
 
     hook[i - 1].addEventListener('click', () => {
-        // hook[i - 1].classList.add('hide');
         hook[i - 1].remove()
         new FooterText(
             'Старый, ты щас пулю словишь',
@@ -64,42 +63,4 @@ document.addEventListener('DOMContentLoaded', () => {
             })
         }    
     }) 
-
-
-    // if (i === 2) {
-    //     hook[i - 1].addEventListener('click', () => {
-    //         hook[i - 1].classList.add('hide');
-    //         console.log(i);
-    //         new FooterText(
-    //             "Ты щас доиграешься сука!",
-    //             'footer'
-    //             ).render();
-    //         i += 1;
-    //         hook = document.querySelectorAll('[data-hook]');
-    //     })
-    // }    
-    // if (i === 1) {
-    //     // alert('Старый, ты щас пулю словишь');
-    //     hook[i - 1].classList.add('hide')
-    //     hook = document.querySelector('[data-hook]');
-    //     new FooterText(
-    //         'Старый, ты щас пулю словишь',
-    //         'footer'
-    //         ).render()
-    //         // i += 1;
-    // } else if (i === 2) {
-    //     new FooterText(
-    //         "Ты щас доиграешься сука!",
-    //         'footer'
-    //         ).render()
-    //     i += 1;
-    // } else if (i === 3) {
-    //     word.classList.add('hide');
-    //     gangsta.classList.remove('hide');
-    //     gangsta.classList.add('show');
-    //     document.documentElement.scrollTop = 1440;
-    //     console.log(hook)
-    // }
-
-    
 })
