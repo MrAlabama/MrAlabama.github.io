@@ -1,0 +1,182 @@
+a
+    list-style-type: none
+    text-decoration: none
+    color: inherit
+
+.hide
+    display: none
+
+.show
+    display: block
+
+nav
+    // padding: 23px
+    position: fixed
+    height: 122px
+    width: 100%
+    background: #161616 
+.logo
+    // height: 122px
+    // padding: 23px 0 0 0
+    display: flex
+    // justify-content: 
+    &_title
+        border-right: 2px solid
+        padding: 40px 
+        color: #FFF
+        font-family: Bungee Shade
+        font-size: 20px
+
+.profile
+    height: 122px
+    border-right: 1px solid #787878
+    &_img
+        padding: 23px 0 0 0
+        display: block
+        margin: 0 auto
+        transition: 1s all
+        &:hover
+            scale: 1.2
+
+
+.social
+    border-right: 1px solid #787878
+    height: 122px
+    &_img
+        padding: 23px 0 0 0
+        display: block
+        margin: 0 auto
+        transition: 1s all
+        &:hover
+            scale: 1.2
+
+.chat
+    height: 122px
+    &_img
+        padding: 23px 0 0 10px
+        display: block
+        margin: 0 auto
+        transition: 1s all
+        &:hover
+            scale: 1.2
+
+.map
+    height: 959px
+    padding-block: 122px
+    background: #161616
+
+iframe
+    width: 100vw
+    height: 837px
+
+.activity
+    height: 378px
+    background: #161616
+    padding: 67px
+    &_question
+        color: #AFA866
+        text-align: center
+        font-family: Stalinist One
+        font-size: 20px
+
+.aggitation 
+    background: #161616
+    padding: 26px
+    height: 534px
+    &_block
+        background-color: white
+        height: 567px
+        width: 299px
+        margin: 0 auto
+        border-radius: 77px
+        background: #FFE177
+        &_text
+            padding-block: 70px
+            color: #AFA866
+            text-align: center
+            font-family: Stalinist One
+            font-size: 20px
+            &_rofl 
+                color: #FFF5BF
+                text-align: center
+                font-family: Stalinist One
+                font-size: 6px
+    &_img
+        margin: 0 auto
+
+.pride
+    height: 457px
+    background: #161616
+    padding: 104px
+    &_title
+        padding: 22px
+        color: #FFE177
+        text-align: center
+        font-family: Stalinist One
+        font-size: 32px
+        transition: 1s all
+        &:hover
+            scale: 1.05
+    &_img
+        margin: 0 auto
+
+footer
+    height: 103px
+    background-color: #000
+
+.footer
+    position: relative
+    padding-top: 21px
+    display: flex
+    &_text
+        padding: 10px
+        text-align: center
+        padding-right: 70px
+        color: #FFF
+        font-family: Pinyon Script
+        font-size: 32px
+    &_title
+        padding: 10px
+        color: #FFF
+        text-align: center
+        font-family: Pinyon Script
+        font-size: 32px
+    &_link
+        padding: 10px
+        right: 1px
+        bottom: 1px
+        position: absolute
+        color: #FFF
+        text-align: end
+        font-family: Mohave
+        font-size: 11px
+        z-index: 2
+
+
+
+.modal
+    overflow: hidden
+    position: fixed
+    width: 100vw
+    height: 100vh
+    background-color: rgb(11, 11, 11, 0.9)
+    padding: 18vh
+    z-index: 999
+    &_warning
+        position: relative
+        display: block
+        background: #7c7c7c url('../img/Ebychi.jpg') center center/cover no-repeat 
+        height: 500px
+        color: #a54747
+        text-align: center
+        font-family: Stalinist One
+        font-size: 50px
+        border: solid 16px #303030
+        outline: solid 8px #161616
+        &_close
+            position: absolute
+            right: 1px
+            top: 1px
+            height: 50px
+            width: 50px
+            background: #b4b4b4 url('../icons/modal/Close.svg') center center/cover no-repeat 
