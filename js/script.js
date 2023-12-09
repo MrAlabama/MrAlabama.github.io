@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const modal = document.querySelector('.modal'),
           modalClose = document.querySelector('.modal_warning_close'),
-          modalOpen = document.querySelector('.profile_img')
+          modalOpen = document.querySelector('.profile_img'),
+          map = document.querySelector('.map_on'),
+          mapButton = document.querySelector('.map_text')
 
     modal.classList.add('hide')
 
@@ -27,7 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 
-
+    mapButton.addEventListener('click', () => {
+        map.classList.add('hide')
+    })
 
 
 })
